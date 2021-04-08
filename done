@@ -1,0 +1,7 @@
+<?php
+    echo '<script type="text/javascript">';
+    echo 'setTimeout(function () { swal("WOW!","Message!","success");';
+    echo '}, 1000);'
+    echo 'window.location.href = "index.php";';
+    echo '</script>';
+?>

@@ -1,0 +1,606 @@
+*{box-sizing: border-box;}
+.container7{
+	width:100%;
+	margin:auto;
+	top:40px;
+	overflow:hidden;
+	background-color:#DCECEC;
+	font-weight: bold;
+}
+#hp-ctn-howItWorks
+{
+    position:fixed;
+    top:300px;
+    right: 0px;
+    padding-top:40px;
+    margin:0px;
+    width: 40px;
+    height:160px;
+    background: #BB080D;
+    z-index:15;
+    border-radius: 3px 0px 0px 3px;
+    text-align: center;
+}
+
+
+#hp-ctn-howItWorks p
+{	position:absolute; 
+	margin-right:  5px;
+	padding-left: 23px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding-bottom: 45px;
+	padding-top: 8px;
+	    color: #fff;
+    -moz-transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+    font-weight: bold;
+}
+
+
+body{
+	background-color:white;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	background-color: #C2E1E8  ;
+	font-weight: bold;
+}
+
+.container3{
+	
+	
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	background-color:#DCECEC   ;
+	font-weight: bold;
+}
+.container4{
+	
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	background-color: #A7C0C6  ;
+	font-weight: bold;
+}
+.container5{
+	
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	background-color: #CDD3D4  ;
+	font-weight: bold;
+}
+
+.container99{
+	
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	background-color: #C2E1E8        ;    ;
+	color: #080C34;
+}
+
+.container6{
+	
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	font:sans-serif;
+	background-color: #A7C0C6  ;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom:200px; 
+	font-weight: bold;
+
+}
+.container6 a{
+	color: black;
+	text-decoration: none;
+}
+.container6 a:hover{
+	color:#BB080D ;
+}
+
+.container2{
+	
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	background-color: #C2E1E8  ;
+	height: 50px;
+	font-weight: bold;
+}
+.container100{
+	padding: 30px;
+	
+	height: 180px;
+	font-size: 26px;
+	line-height: 1.2em;
+	font-style: italic;
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	background-color: #080C34  ;
+	color: white ;
+}
+
+
+
+/*#showcase{
+	min-height: 600px;
+	
+	background: url('../images/aboutus.jpg') no-repeat;
+	color:white;
+	width: 50%;
+  background-color: powderblue;
+}
+#showcase h1{
+	font-size:50px;
+	text-align: center;
+	color:white;
+
+
+}*/
+#main h1{
+	padding-top: 20px;
+	text-decoration: underline;
+	color: black;
+}
+
+
+
+#showcase{background:url('../images/about.png' ) no-repeat ;
+
+	
+	min-height:400px;
+	
+	background-size: 100% 100%;
+	text-align: center;
+
+	
+}
+
+#showcase1{background:url('../images/services.png' ) no-repeat ;
+
+	
+	min-height:400px;
+	
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+#showcase3{background:url('../images/contact.png' ) no-repeat ;
+
+	
+	min-height:400px;
+	
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+#showcase4{background:url('../images/career.png' ) no-repeat ;
+
+	
+	min-height:400px;
+	
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+
+#main{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #080C34;
+  font-family: Arial;
+  margin-top: 160px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown2 {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown2 .dropbtn2 {
+  font-size: 16px; 
+  border: none;
+  padding: 5px 5px ;
+  outline: none;
+  color: white;
+  
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown2:hover .dropbtn2 {
+  background-color: #BB080D;
+
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown2-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown2-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+/*.dropdown2-content a:hover {
+  background-color: grey;
+}*/
+
+/* Show the dropdown menu on hover */
+.dropdown2:hover .dropdown2-content {
+  display: block;
+}
+
+.dropdown1 {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown1 .dropbtn1 {
+  font-size: 16px; 
+  border: none;
+  padding: 5px 5px;
+  outline: none;
+  color: white;
+  
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown1:hover .dropbtn1 {
+  background-color: #BB080D;
+
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown1-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown1-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+/*.dropdown1-content a:hover {
+  background-color: black;
+}*/
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown1-content {
+  display: block;
+}
+
+.dropdown3 {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown3 .dropbtn3 {
+  font-size: 16px; 
+  border: none;
+  padding: 5px 5px;
+  outline: none;
+  color: white;
+  
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown3:hover .dropbtn3 {
+  background-color: #BB080D;
+
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown3-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown3-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+/*.dropdown3-content a:hover {
+  background-color: #ddd;
+}*/
+
+/* Show the dropdown menu on hover */
+.dropdown3:hover .dropdown3-content {
+  display: block;
+}
+
+
+.Image1{
+
+     position: absolute;
+     left: 100px;
+     top: 60px;
+
+
+
+}
+.Image2{
+
+     width:1550px;
+
+     
+
+
+
+}
+
+
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}
+
+#boxes1 .box1{
+	width: 100%;
+	float:left;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 15px;
+	padding: 10px;
+	height: 20px;
+
+}
+#boxes1 .box2{
+	width: 0%;
+	float:left;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 15px;
+	padding: 10px;
+	height: 20px;
+
+}
+
+.button1{
+	background-color:  #080C34;
+	margin-right: 5px;
+	padding: 6px;
+	color:white;
+
+}
+header #sal{
+  position: absolute;
+ /* left: 1100px;
+  top: 3px;*/
+  font-family: Monospace ;
+  float: right;
+
+
+  
+}
+/*.container1{
+	 position: absolute;
+     left: 1265px;
+     top: 40px;
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 
+}*/
+
+*{
+	margin: 0;
+
+	padding:0;
+}
+@keyframes slider {
+
+0% {
+	left: 0;
+}
+
+14.28% {
+	left: 0;
+}
+
+17.28% {
+	left: -100%;
+}
+
+31.56% {
+    left: -100%;
+
+}
+
+34.56% {
+		left: -200%;
+
+}
+
+48.84% {
+	left: -200%;
+}
+
+51.84% {
+	left: -300%;
+}
+
+66.12% {
+	left: -300%;
+}
+
+69.12% {
+	left: -400%;
+
+}
+83.4% {
+	left: -400%;
+
+}
+86.4% {
+	left: -500%;
+
+}
+
+100%{
+	left: -500%;
+}
+}
+
+#slider {
+	overflow: hidden;
+}
+
+#slider figure img {
+	width: 14.28%;
+	float: left;
+}
+
+#slider figure {
+	position: relative;
+	width: 700%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 30s slider infinite; 
+
+}
+#boxes img
+{
+	width: 125px;
+	height: 170px;
+	width:70%;
+		
+
+}
+
+
+#boxes .box{
+	width: 33%;
+	float:left;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 15px;
+	padding: 10px;
+
+}
+
+#header{
+	position: fixed;
+}
+
+@media screen and (max-width: 500px){
+#header{
+	position: static;
+
+}
+
+
+}
+
+.dropdown2-content a:hover {
+  background-color: #E6DADA;
+}
+
+.dropdown1-content a:hover {
+  background-color: #E6DADA;
+}
+
+.dropdown3-content a:hover {
+  background-color: #E6DADA;
+}
+
+
+
+
