@@ -10,7 +10,6 @@
 		<section id="boxes1">
 	<div class="container2">
 		<div class="box1">
-	
 <p>
 	
 	<script type="text/javascript">
